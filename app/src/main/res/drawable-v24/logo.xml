@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportHeight="100.0"
+    android:viewportWidth="100.0"
+    tools:ignore="MissingDefaultResource">
+    <group android:name="LogoGroup"
+        android:rotation="0" >
+        <path
+            android:name="arcoEliptico"
+            android:pathData="M 70 20 a 25 35 45 1 0 0 50 m 0 -70 z M 70 20 a 25 35 45 0 1 0 50 m 0 -70 z"
+            android:fillColor="#afadad"/>
+    </group>
+    <group android:name="LogoGroup">
+        <path
+            android:name="triangleSuperior"
+            android:fillColor="#f60016"
+            android:pathData="M 55 40 l 40 15 v -30 l -40 15 " />
+    </group>
+    <group android:name="LogoGroup"
+        android:rotation="0" >
+        <path
+            android:name="TrianguloInferior"
+            android:fillColor="#f60016"
+            android:pathData="M 55 55 l -40 15 v -30 l 40 15 " />
+    </group>
+</vector>

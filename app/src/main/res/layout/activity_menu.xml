@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Postulante"
+        android:textColor="@color/white"
+        android:background="@drawable/round_button"
+        android:drawableEnd="@drawable/ic_round_new"
+        android:paddingEnd="15dp"/>
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:text="Postulante Info."
+        android:textColor="@color/white"
+        android:background="@drawable/round_button"
+        android:drawableEnd="@drawable/ic_round_info"
+        android:paddingEnd="15dp"/>
+</LinearLayout>
+
